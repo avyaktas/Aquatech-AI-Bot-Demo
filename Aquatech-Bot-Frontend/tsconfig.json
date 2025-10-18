@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "jsx": "react-jsx",
+    "target": "es2017",
+    "module": "commonjs",
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "incremental": true,
+    "tsBuildInfoFile": "./lib/.tsbuildinfo",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "src/static"]
+}

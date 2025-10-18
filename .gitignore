@@ -1,0 +1,37 @@
+# --- Frontend / Node ---
+node_modules/
+dist/
+build/
+.next/
+coverage/
+*.map
+
+# --- Backend / Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.sqlite3
+
+# --- General / editors / OS ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Big binary/data you don't want on GitHub ---
+data/
+datasets/
+private/
+storage/
+uploads/
+*.pdf
+*.docx
+*.pptx
+*.csv
+*.zip
+*.parquet
+*.mp4
+*.mov

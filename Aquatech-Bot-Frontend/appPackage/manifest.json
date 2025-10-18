@@ -1,0 +1,42 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.22/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.22",
+    "version": "1.0.9",
+    "id": "75D0186C-A9A4-4BF3-B0A1-D2B112C1A8A9",
+    "developer": {
+        "name": "My App, Inc.",
+        "websiteUrl": "https://www.aquatechai.org",
+        "privacyUrl": "https://www.aquatechai.org/privacy",
+        "termsOfUseUrl": "https://www.aquatechai.org/terms"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Aquatech AI",
+        "full": "Aquatech Teams AI Assistant"
+    },
+    "description": {
+        "short": "Ask Aquatech AI questions",
+        "full": "Aquatech Teams AI helps employees query past projects, proposals, and documents using AI."
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [],
+    "composeExtensions": [],
+    "staticTabs": [
+        {
+            "entityId": "aquatech-home",
+            "name": "Home",
+            "contentUrl": "https://aquatechai.org/?theme={theme}&entityId=aquatech-home",
+            "websiteUrl": "https://aquatechai.org/",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity"
+    ],
+    "validDomains": ["aquatechai.org","www.aquatechai.org"]
+}

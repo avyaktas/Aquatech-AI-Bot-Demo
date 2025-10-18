@@ -1,0 +1,42 @@
+# === Python / Virtual Env ===
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+.env
+.env.*
+*.sqlite3
+
+# === Logs / Outputs ===
+logs/
+*.log
+.envlogs/
+.envs/query_log.json
+
+# === FAISS indexes / Embeddings / Local storage ===
+faiss_index/
+faiss_index_aquatech/
+*.npy
+*.pkl
+*.bin
+
+# === Docs and reports (keep markdown, ignore builds) ===
+docs/
+__docs__/
+
+# === IDEs and OS files ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === Misc ===
+*.zip
+*.tar
+*.gz
+*.mp4
+*.mov
+*.pdf
+*.docx
+*.pptx
