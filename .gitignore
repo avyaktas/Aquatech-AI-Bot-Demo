@@ -35,3 +35,7 @@ uploads/
 *.parquet
 *.mp4
 *.mov
+# Private keys
+*.pem
+*.key
+
