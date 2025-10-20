@@ -40,3 +40,10 @@ Thumbs.db
 *.pdf
 *.docx
 *.pptx
+# === Security / Secrets ===
+*.pem
+*.key
+*.crt
+*.pub
+.env
+.env.*
